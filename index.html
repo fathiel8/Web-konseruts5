@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Mayer Live | Concert Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#home" class="brand">
+        <span class="brand-logo">JM</span>
+        <span>JOHN MAYER<small>LIVE EXPERIENCE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Buka navigasi">☰</button>
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#tickets">Tickets</a>
+        <a href="#venue">Venue</a>
+        <a href="#booking">Booking</a>
+    </nav>
+    <a href="#tickets" class="nav-button">Get Tickets ↗</a>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+            <p class="eyebrow">● A LIVE MUSIC EXPERIENCE</p>
+            <h1>One night.<br><em>Endless feeling.</em></h1>
+            <p class="hero-description">
+                Let the guitar speak. Feel every lyric.<br>
+                Make a memory that stays with you.
+            </p>
+            <div class="hero-actions">
+                <a href="#tickets" class="button button-primary">Explore Tickets ↗</a>
+                <a href="#experience" class="text-link">Discover the experience ↓</a>
+            </div>
+            <div class="hero-caption">THE SOUNDTRACK TO YOUR STORY</div>
+        </div>
+        <div class="hero-bottom">
+            <span>INTIMATE. ELECTRIC. UNFORGETTABLE.</span>
+            <span>SCROLL TO EXPLORE ↓</span>
+        </div>
+    </section>
+
+    <section class="event-info">
+        <div class="info-item">
+            <span class="info-icon">◷</span>
+            <div><small>DATE</small><strong>To be announced</strong></div>
+        </div>
+        <div class="info-item">
+            <span class="info-icon">⌖</span>
+            <div><small>LOCATION</small><strong>Jakarta, Indonesia</strong></div>
+        </div>
+        <div class="info-item">
+            <span class="info-icon">♫</span>
+            <div><small>MUSIC GENRE</small><strong>Pop · Blues · Rock</strong></div>
+        </div>
+        <div class="demo-label">● EDUCATIONAL DEMO WEBSITE</div>
+    </section>
+
+    <section class="section experience" id="experience">
+        <div class="section-heading">
+            <p class="eyebrow dark-eyebrow">MORE THAN A CONCERT</p>
+            <h2>Feel the music.<br><em>Keep the moment.</em></h2>
+            <p>Celebrate the magic of live music through an unforgettable concert concept.</p>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-image">
+                <span class="image-label">01 / THE SOUND</span>
+                <h3>Every note,<br>closer.</h3>
+            </div>
+            <div class="experience-details">
+                <span class="number">01</span>
+                <h3>A night built<br>around the music.</h3>
+                <p>From soulful guitar solos to songs that feel like old friends, experience a night designed for people who truly love music.</p>
+                <div class="feature">
+                    <span>✦</span>
+                    <div><strong>Live music atmosphere</strong><small>Feel the energy of every performance.</small></div>
+                </div>
+                <div class="feature">
+                    <span>✦</span>
+                    <div><strong>Your own concert experience</strong><small>Choose the ticket that fits your night.</small></div>
+                </div>
+                <a href="#tickets" class="inline-link">Find your ticket →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <span class="quote-mark">“</span>
+        <h2>Some songs don't just play.<br>They <em>take you somewhere.</em></h2>
+        <p>THE MAGIC OF LIVE MUSIC</p>
+    </section>
+
+    <section class="section tickets-section" id="tickets">
+        <div class="section-heading centered">
+            <p class="eyebrow dark-eyebrow">CHOOSE YOUR EXPERIENCE</p>
+            <h2>Your night,<br><em>your point of view.</em></h2>
+            <p>Temukan kategori tiket yang cocok untukmu.</p>
+        </div>
+
+        <form id="searchForm" class="search-form">
+            <input type="search" id="searchTicket" placeholder="Cari Festival, Gold, Platinum...">
+            <button type="submit">⌕</button>
+        </form>
+
+        <div class="ticket-grid" id="ticketGrid">
+            <article class="ticket-card" data-ticket="festival">
+                <div class="ticket-symbol">✳</div>
+                <p class="ticket-category">TICKET CATEGORY</p>
+                <h3>Festival</h3>
+                <p class="ticket-description">Feel the music. Feel the crowd.</p>
+                <div class="ticket-price">Rp 850.000 <small>/ person</small></div>
+                <ul class="ticket-benefits">
+                    <li>✓ Booking summary</li>
+                    <li>✓ Digital registration preview</li>
+                    <li>✓ Event information</li>
+                </ul>
+                <a href="#booking" class="button button-outline" data-category="festival">Choose Festival →</a>
+            </article>
+
+            <article class="ticket-card featured" data-ticket="gold">
+                <span class="popular-label">MOST POPULAR</span>
+                <div class="ticket-symbol">✦</div>
+                <p class="ticket-category">TICKET CATEGORY</p>
+                <h3>Gold</h3>
+                <p class="ticket-description">A closer view of the stage.</p>
+                <div class="ticket-price">Rp 1.450.000 <small>/ person</small></div>
+                <ul class="ticket-benefits">
+                    <li>✓ Booking summary</li>
+                    <li>✓ Digital registration preview</li>
+                    <li>✓ Event information</li>
+                </ul>
+                <a href="#booking" class="button button-primary" data-category="gold">Choose Gold →</a>
+            </article>
+
+            <article class="ticket-card" data-ticket="platinum">
+                <div class="ticket-symbol">✧</div>
+                <p class="ticket-category">TICKET CATEGORY</p>
+                <h3>Platinum</h3>
+                <p class="ticket-description">The ultimate concert experience.</p>
+                <div class="ticket-price">Rp 2.250.000 <small>/ person</small></div>
+                <ul class="ticket-benefits">
+                    <li>✓ Booking summary</li>
+                    <li>✓ Digital registration preview</li>
+                    <li>✓ Event information</li>
+                </ul>
+                <a href="#booking" class="button button-outline" data-category="platinum">Choose Platinum →</a>
+            </article>
+        </div>
+
+        <p class="disclaimer">*Harga tiket merupakan simulasi untuk proyek pembelajaran, bukan penawaran resmi.</p>
+    </section>
+
+    <section class="venue-section" id="venue">
+        <div class="venue-content">
+            <p class="eyebrow">THE PERFECT SETTING</p>
+            <h2>Meet us where<br>the music lives.</h2>
+            <p>Jakarta, Indonesia · Venue to be announced</p>
+            <div class="venue-detail">
+                <span>⌖</span>
+                <div><strong>Location</strong><small>Detail venue belum ditetapkan.</small></div>
+            </div>
+            <div class="venue-detail">
+                <span>◷</span>
+                <div><strong>Event schedule</strong><small>Tanggal konser belum ditetapkan.</small></div>
+            </div>
+        </div>
+        <div class="venue-art">
+            <div class="venue-circle"></div>
+            <div class="venue-circle circle-large"></div>
+            <div class="venue-art-text">LET THE<br><em>MUSIC</em><br>TAKE OVER.</div>
+            <span class="venue-art-caption">LIVE · LOUD · IN THE MOMENT</span>
+        </div>
+    </section>
+
+    <section class="section booking-section" id="booking">
+        <div class="booking-intro">
+            <p class="eyebrow dark-eyebrow">SAVE YOUR SPOT</p>
+            <h2>Make it<br><em>your night.</em></h2>
+            <p>Isi formulir untuk mencoba proses registrasi tiket dan melihat ringkasan pesanan.</p>
+            <div class="booking-note">
+                <span>✦</span>
+                <p><strong>Booking made simple.</strong><br>
+                <small>Pemesanan ini hanya simulasi. Tidak ada pembayaran sungguhan.</small></p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <div id="bookingResult" aria-live="polite"></div>
+
+            <form id="bookingForm" class="booking-form">
+                <div class="form-heading">
+                    <span>01 — YOUR DETAILS</span>
+                    <h3>Booking information</h3>
+                </div>
+
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required minlength="3" maxlength="100" placeholder="Masukkan nama lengkap">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required placeholder="nama@email.com">
+
+                <div class="form-row">
+                    <div>
+                        <label for="category">Ticket category</label>
+                        <select name="category" id="category" required>
+                            <option value="">Pilih kategori</option>
+                            <option value="festival">Festival — Rp 850.000</option>
+                            <option value="gold">Gold — Rp 1.450.000</option>
+                            <option value="platinum">Platinum — Rp 2.250.000</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity" required>
+                            <option value="1">1 tiket</option>
+                            <option value="2">2 tiket</option>
+                            <option value="3">3 tiket</option>
+                            <option value="4">4 tiket</option>
+                            <option value="5">5 tiket</option>
+                            <option value="6">6 tiket</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="total-preview">
+                    <span>Estimated total</span>
+                    <strong id="totalPreview">Pilih tiket</strong>
+                </div>
+
+                <label class="agree-label">
+                    <input type="checkbox" name="agree" required>
+                    <span>Saya memahami bahwa ini merupakan simulasi pemesanan untuk proyek pembelajaran.</span>
+                </label>
+
+                <button type="submit" class="button button-primary submit-button">
+                    Preview Booking ↗
+                </button>
+                <p class="form-footnote">Tidak ada pembayaran atau penerbitan tiket resmi.</p>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#home" class="brand footer-brand">
+        <span class="brand-logo">JM</span>
+        <span>JOHN MAYER<small>LIVE EXPERIENCE</small></span>
+    </a>
+    <p>A concert website concept for an educational project.</p>
+    <div class="page-counter">
+        <span>PAGE VIEWS</span>
+        <strong>DEMO</strong>
+        <small>Penghitung pengunjung membutuhkan backend.</small>
+    </div>
+    <div class="footer-bottom">
+        <span>© 2026 John Mayer Live Concept</span>
+        <a href="#home">Back to top ↑</a>
+        <span>NOT AN OFFICIAL EVENT WEBSITE</span>
+    </div>
+</footer>
+
+<script>
+const prices = {
+    festival: { name: "Festival", price: 850000 },
+    gold: { name: "Gold", price: 1450000 },
+    platinum: { name: "Platinum", price: 2250000 }
+};
+
+const menuButton = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+const category = document.querySelector("#category");
+const quantity = document.querySelector("#quantity");
+const total = document.querySelector("#totalPreview");
+const bookingForm = document.querySelector("#bookingForm");
+const bookingResult = document.querySelector("#bookingResult");
+
+menuButton.addEventListener("click", () => {
+    navLinks.classList.toggle("nav-open");
+});
+
+function rupiah(value) {
+    return "Rp " + value.toLocaleString("id-ID");
+}
+
+function updateTotal() {
+    const ticket = prices[category.value];
+    total.textContent = ticket
+        ? rupiah(ticket.price * Number(quantity.value))
+        : "Pilih tiket";
+}
+
+category.addEventListener("change", updateTotal);
+quantity.addEventListener("change", updateTotal);
+
+document.querySelectorAll("[data-category]").forEach(button => {
+    button.addEventListener("click", () => {
+        category.value = button.dataset.category;
+        updateTotal();
+    });
+});
+
+document.querySelector("#searchForm").addEventListener("submit", event => {
+    event.preventDefault();
+
+    const keyword = document.querySelector("#searchTicket")
+        .value.trim().toLowerCase();
+
+    let found = 0;
+
+    document.querySelectorAll(".ticket-card").forEach(card => {
+        const visible = card.dataset.ticket.includes(keyword) ||
+            card.textContent.toLowerCase().includes(keyword);
+
+        card.hidden = !visible;
+        if (visible) found++;
+    });
+
+    let message = document.querySelector("#searchMessage");
+
+    if (!message) {
+        message = document.createElement("p");
+        message.id = "searchMessage";
+        message.className = "disclaimer";
+        document.querySelector("#ticketGrid").after(message);
+    }
+
+    message.textContent = found
+        ? `${found} kategori tiket ditemukan.`
+        : "Kategori tidak ditemukan. Coba Festival, Gold, atau Platinum.";
+});
+
+function escapeHTML(value) {
+    return value.replace(/[&<>"']/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+    })[character]);
+}
+
+bookingForm.addEventListener("submit", event => {
+    event.preventDefault();
+
+    if (!bookingForm.reportValidity()) return;
+
+    const name = document.querySelector("#name").value.trim();
+    const email = document.querySelector("#email").value.trim();
+    const ticket = prices[category.value];
+    const count = Number(quantity.value);
+
+    if (!ticket || count < 1 || count > 6) {
+        alert("Pilih kategori dan jumlah tiket yang valid.");
+        return;
+    }
+
+    const code = "JM-" +
+        Math.random().toString(16).slice(2, 8).toUpperCase();
+
+    const amount = ticket.price * count;
+
+    bookingResult.innerHTML = `
+        <div class="success-box">
+            <div class="success-icon">✓</div>
+            <p class="eyebrow dark-eyebrow">REGISTRATION PREVIEW</p>
+            <h3>You're on the list.</h3>
+            <p>Terima kasih, ${escapeHTML(name)}. Pesanan simulasi berhasil dibuat.</p>
+            <div class="receipt">
+                <div><span>Kode booking</span><strong>${code}</strong></div>
+                <div><span>Nama</span><strong>${escapeHTML(name)}</strong></div>
+                <div><span>Email</span><strong>${escapeHTML(email)}</strong></div>
+                <div><span>Kategori</span><strong>${ticket.name}</strong></div>
+                <div><span>Jumlah tiket</span><strong>${count}</strong></div>
+                <div class="receipt-total">
+                    <span>Total simulasi</span>
+                    <strong>${rupiah(amount)}</strong>
+                </div>
+            </div>
+            <p class="disclaimer">
+                Ini hanya simulasi browser, bukan tiket resmi.
+                Data tidak tersimpan ke server.
+            </p>
+            <button type="button" id="newBooking" class="button button-outline">
+                Buat simulasi baru
+            </button>
+        </div>
+    `;
+
+    bookingForm.hidden = true;
+    bookingResult.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    document.querySelector("#newBooking").addEventListener("click", () => {
+        bookingForm.reset();
+        bookingForm.hidden = false;
+        bookingResult.innerHTML = "";
+        updateTotal();
+        bookingForm.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+});
+
+updateTotal();
+</script>
+
+</body>
+</html>
